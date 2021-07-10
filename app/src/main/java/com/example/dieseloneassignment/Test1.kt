@@ -96,7 +96,7 @@ fun sortedPlayer(leaderboard: IntArray, player: IntArray){
     sorted.forEachIndexed { index, i ->
         peringkat.put(i, index+1)
     }
-
+    print("Soal 2 : " )
     player.forEach { playerScore ->
        print(peringkat.get(playerScore).toString() + " ")
     }
@@ -163,5 +163,5 @@ fun recursifCheckAb(listArray: CharArray, maxSide: Int){
         }
     }
 
-    println(array.contentToString())
+    println("Soal 3 : " + array.contentToString())
 }
