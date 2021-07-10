@@ -20,7 +20,6 @@ fun findC(r: Int): Long{
         Math.pow(r.toDouble(), 2.0) + Math.pow(r.toDouble(), 2.0)
     )
 
-    println("C : " + c + " round : " + Math.round(c))
 
    return Math.round(c)
 }
